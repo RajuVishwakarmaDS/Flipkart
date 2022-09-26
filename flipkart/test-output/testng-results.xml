@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-21T05:36:14 IST" name="Default suite" finished-at="2022-09-21T05:36:15 IST" duration-ms="689">
+  <suite started-at="2022-09-26T15:35:20 IST" name="Default suite" finished-at="2022-09-26T15:35:23 IST" duration-ms="2569">
     <groups>
     </groups>
-    <test started-at="2022-09-21T05:36:14 IST" name="Default test" finished-at="2022-09-21T05:36:15 IST" duration-ms="689">
+    <test started-at="2022-09-26T15:35:20 IST" name="Default test" finished-at="2022-09-26T15:35:23 IST" duration-ms="2569">
       <class name="com.flipkart.testcases.ProductSearch">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.flipkart.testcases.ProductSearch@59662a0b]" started-at="2022-09-21T05:36:09 IST" name="setup" finished-at="2022-09-21T05:36:14 IST" duration-ms="4933" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.flipkart.testcases.ProductSearch@59662a0b]" started-at="2022-09-26T15:35:02 IST" name="setup" finished-at="2022-09-26T15:35:20 IST" duration-ms="18559" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchProduct()[pri:0, instance:com.flipkart.testcases.ProductSearch@59662a0b]" started-at="2022-09-21T05:36:14 IST" name="searchProduct" finished-at="2022-09-21T05:36:15 IST" duration-ms="611" status="FAIL">
+        <test-method signature="searchProduct()[pri:0, instance:com.flipkart.testcases.ProductSearch@59662a0b]" started-at="2022-09-26T15:35:20 IST" name="searchProduct" finished-at="2022-09-26T15:35:23 IST" duration-ms="2498" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [mobiles] but found []]]>
@@ -24,7 +24,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
 at org.testng.Assert.assertEquals(Assert.java:665)
-at com.flipkart.testcases.ProductSearch.searchProduct(ProductSearch.java:33)
+at com.flipkart.testcases.ProductSearch.searchProduct(ProductSearch.java:32)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -57,7 +57,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.flipkart.testcases.ProductSearch@59662a0b]" started-at="2022-09-21T05:36:15 IST" name="teardown" finished-at="2022-09-21T05:36:18 IST" duration-ms="2469" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.flipkart.testcases.ProductSearch@59662a0b]" started-at="2022-09-26T15:35:23 IST" name="teardown" finished-at="2022-09-26T15:35:25 IST" duration-ms="2500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

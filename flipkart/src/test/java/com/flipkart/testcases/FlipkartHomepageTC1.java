@@ -6,9 +6,7 @@ import com.flipkart.testdata.TestData;
 
 import junit.framework.Assert;
 
-@SuppressWarnings("deprecation")
 public class FlipkartHomepageTC1 extends BaseClass{
-		@SuppressWarnings("deprecation")
 		@Test
 		public static void homepageNav() {
 			String actual = d.getTitle();
